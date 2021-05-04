@@ -1,0 +1,10 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 19V10C1 7.51472 1.87868 5.3934 3.63604 3.63604C5.3934 1.87868 7.51472 1 10 1H40C42.4853 1 44.6066 1.87868 46.364 3.63604C48.1213 5.3934 49 7.51472 49 10V40C49 42.4853 48.1213 44.6066 46.364 46.364C44.6066 48.1213 42.4853 49 40 49H10C7.51472 49 5.3934 48.1213 3.63604 46.364C1.87868 44.6066 1 42.4853 1 40V19Z" stroke="#F5F6FA" stroke-width="2"/>
+<rect x="20" y="16" width="11" height="19" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0909091 0.0526316)"/>
+</pattern>
+<image id="image0" width="11" height="19" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAATCAYAAABGKffQAAAABHNCSVQICAgIfAhkiAAAAJBJREFUKFNjXLVhuywDA0MWAwPD9lB/j0MMeADjqg3bFzMwMMQwMDD8ZmBgCAn199iESz1IcS4DA8MkqAK8Ghj////PsHrjjg4GBoZyQhrAikGAGA1wxcRoQFFMSAOGYnwasCrGocEbp2KohhMMDAzm0FBaSbnJuIKR/NAgFDGkxyAhE2GpkLRUR2p6JjqnAADD/JFJTZxPgAAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

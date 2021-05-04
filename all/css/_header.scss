@@ -1,0 +1,229 @@
+.header{
+    background: #F5F6FA;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .header_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 0;
+            .header_nav{
+                display: flex;
+                align-items: center;
+                .nav_list{
+                    display: flex;
+                    align-items: center;
+                    list-style-type: none;
+                    &-item{
+                        display: inline-block;
+                        margin-right: 22px;
+                        & a{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #858A8F;
+                            text-decoration: none;
+                            margin-right: 6px;
+                            &:hover{
+                                color: aqua;
+                            }
+                        }
+                    }
+                }
+                .start{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    padding: 16px 34px;
+                    background: #0176FF;
+                    border-radius: 6px;
+                    border: none;
+                    outline: none;
+                }
+                .burger{
+                    display: flex;
+                    flex-direction: column;
+                    &.burger_unvisible{
+                        display: none;
+                    }
+                    &__items{
+                        width: 28px;
+                        height: 4px;
+                        background: black;
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+        .enterance_content{
+            text-align: center;
+            padding: 100px 50px;
+            &-title{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 60px;
+                line-height: 73px;
+                color: #333333;
+            }
+            &-text{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 35px;
+                color: #858A8F;
+            }
+        }
+    }
+}
+
+// Media quarries starts here
+
+@media (min-width:992.5px) and (max-width:1200px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width:768.5px) and (max-width:992px) {
+    .container {
+        max-width: 960px;
+        padding: 0 20px;
+    }
+    nav{
+        display: none;
+    }
+    .enterance_content-title{
+        font-size: 48px !important;
+    }
+    .enterance_content-text{
+        font-size: 20px !important;
+    }
+
+}
+
+@media (min-width:576.5px) and (max-width:768px) {
+    .container {
+        max-width: 720px;
+        padding: 0 20px;
+    }
+    nav{
+        display: none;
+    }
+    .enterance_content-title{
+        font-size: 38px !important;
+        line-height: 44px !important;
+    }
+    .enterance_content-text{
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    
+}
+
+@media (min-width:375px) and (max-width:576px) {
+    .container{
+        max-width: 540px;
+        padding: 0 20px;
+    }
+    nav{
+        display: none;
+    }
+    .enterance_content-title{
+        font-size: 28px !important;
+        line-height: 34px !important;
+    }
+    .enterance_content-text{
+        display: none;
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    .header{
+        .container{
+            .header_container{
+                .header_nav{
+                    .start{
+                        display: none;
+                    }
+                    .burger{
+                        display: flex;
+                        flex-direction: column;
+                        &.burger_unvisible{
+                            display: inline-block;
+                        }
+                        &__items{
+                            width: 28px;
+                            height: 4px;
+                            background: black;
+                            margin-bottom: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        max-width: 350px;
+    }
+    nav{
+        display: none;
+    }
+    .enterance_content-title{
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    .enterance_content-text{
+        display: none;
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }    
+    .header{
+        .container{
+            .header_container{
+                .header_nav{
+                    .start{
+                        display: none;
+                    }
+                    .burger{
+                        display: flex;
+                        flex-direction: column;
+                        &.burger_unvisible{
+                            display: inline-block;
+                        }
+                        &__items{
+                            width: 28px;
+                            height: 4px;
+                            background: black;
+                            margin-bottom: 6px;
+                        }
+                    }
+                }
+            }
+            .enterance_content{
+                text-align: center;
+                padding: 36px;
+                &-title{
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 60px;
+                    line-height: 73px;
+                    color: #333333;
+                }
+                &-text{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 35px;
+                    color: #858A8F;
+                }
+            }
+        }
+    }
+}
